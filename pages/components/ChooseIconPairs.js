@@ -1,5 +1,5 @@
 import React from "react";
-import icons from "./icons";
+import { icons } from "@/constants/icons";
 
 const ChoosePairs = (props) => {
   const { handleIconChoice, selectedIconRowNumber, isGameStarted } = props;

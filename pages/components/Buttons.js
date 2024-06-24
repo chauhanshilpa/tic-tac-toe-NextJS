@@ -1,5 +1,5 @@
 import React from "react";
-import icons from "./icons";
+import { icons } from "@/constants/icons";
 
 const Buttons = (props) => {
   const {
@@ -38,7 +38,9 @@ const Buttons = (props) => {
           type="button"
           className="btn btn-primary mt-4"
           onClick={resetGameToContinueMatch}
-          disabled={scoreTableRow[0] === 10 && "true"}
+          disabled={
+            Array.isArray(scoreTableRow) && scoreTableRow[0] === 10 && "true"
+          }
         >
           Play Again
         </button>

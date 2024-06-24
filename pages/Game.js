@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from "react";
 import GridItem from "./components/GridItem";
 import Buttons from "./components/Buttons";
-import ScoreTable from "./components/ScoreTable.js";
+import ScoreTable from "./components/ScoreTable";
 import ChooseIconPairs from "./components/ChooseIconPairs";
-import icons from "./components/icons";
+import { icons } from "@/constants/icons";
 
 function Game() {
   const [iconList, setIconList] = useState([

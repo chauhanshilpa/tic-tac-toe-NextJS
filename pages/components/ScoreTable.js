@@ -20,7 +20,7 @@ const ScoreTable = (props) => {
             </tr>
           </thead>
           <tbody>
-            {scoreTableRow.map((el, idx) => (
+            {Array.isArray(scoreTableRow) && scoreTableRow.map((el, idx) => (
               <tr style={{ height: "35px" }} key={idx}>
                 <td className="tcell">
                   <span style={{ margin: "5px", fontSize: "15px" }}>
