@@ -1,40 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# tic-tac-toe
 
-## Getting Started
+tic-tac-toe is a two-player game in which players take turns on a 3x3 grid and can choose pairs of icon to play with. 
+The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ Open terminal of your local machine, clone repository, run the command `npm install` and  then `run run dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Game Controls
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The game controls are simple:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1) Click on an empty cell to place your mark.
+2) The game will automatically switch turns after each move.
+3) The game will detect when any player has won or the game ends in a draw.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Game Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The game features include:
 
-## Learn More
+1) A simple and intuitive user interface.
+2) A heading that tracks of wins and draws.
+3) A Play Again button to play next round and a Reset Table button that allows players to start a new game.
+4) Choices between desired icons pair for players.
+5) A score table that shows the pair of icons with which game was played and the score obtained by both players.
 
-To learn more about Next.js, take a look at the following resources:
+   <img width="960" alt="game user-interface" src="https://github.com/chauhanshilpa/tic-tac-toe/assets/101130846/2cd87d2d-7ba3-4567-9533-28dd256e7b04">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Credits
 
-## Deploy on Vercel
+This game was created using Next.js. The icons are obtained from [fontawesome](https://fontawesome.com/). The components style is obtained from [bootstrap](https://getbootstrap.com/) and some custom style.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
