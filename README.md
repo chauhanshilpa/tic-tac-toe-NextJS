@@ -7,8 +7,6 @@ The player who succeeds in placing three of their marks in a horizontal, vertica
  
  This is a re-implementation of my original project which is in ReactJS: [tic-tac-toe](https://github.com/chauhanshilpa/tic-tac-toe)
 
- You can try out the application at [link](tic-tac-toe-next-zeta.vercel.app)
-
 ## Installation
 
  Open terminal of your local machine, clone repository, run the command `npm install` and  then `run npm start`
