@@ -3,9 +3,15 @@
 tic-tac-toe is a two-player game in which players take turns on a 3x3 grid and can choose pairs of icon to play with. 
 The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
+   <img width="960" alt="game user-interface" src="https://github.com/chauhanshilpa/tic-tac-toe/assets/101130846/2cd87d2d-7ba3-4567-9533-28dd256e7b04">
+ 
+ This is a re-implementation of my original project which is in ReactJS: [tic-tac-toe](https://github.com/chauhanshilpa/tic-tac-toe)
+
+ You can try out the application at [link](tic-tac-toe-next-zeta.vercel.app)
+
 ## Installation
 
- Open terminal of your local machine, clone repository, run the command `npm install` and  then `run run dev`
+ Open terminal of your local machine, clone repository, run the command `npm install` and  then `run npm start`
 
 ## Game Controls
 
@@ -25,10 +31,7 @@ The game features include:
 4) Choices between desired icons pair for players.
 5) A score table that shows the pair of icons with which game was played and the score obtained by both players.
 
-   <img width="960" alt="game user-interface" src="https://github.com/chauhanshilpa/tic-tac-toe/assets/101130846/2cd87d2d-7ba3-4567-9533-28dd256e7b04">
-
-
 ## Credits
 
-This game was created using Next.js. The icons are obtained from [fontawesome](https://fontawesome.com/). The components style is obtained from [bootstrap](https://getbootstrap.com/) and some custom style.
+This game was created using React. The icons were obtained from [fontawesome](https://fontawesome.com/). The components style was obtained from [bootstrap](https://getbootstrap.com/) and some custom style.
 
