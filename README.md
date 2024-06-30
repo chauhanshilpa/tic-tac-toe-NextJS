@@ -31,5 +31,5 @@ The game features include:
 
 ## Credits
 
-This game was created using React. The icons were obtained from [fontawesome](https://fontawesome.com/). The components style was obtained from [bootstrap](https://getbootstrap.com/) and some custom style.
+This game is created in NextJS and Bootstrap for CSS. The icons were obtained from [fontawesome](https://fontawesome.com/). The components style was obtained from [bootstrap](https://getbootstrap.com/) and some custom style.
 
